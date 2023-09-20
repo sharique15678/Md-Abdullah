@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+#carouselExampleIndicators{
+    height: calc(100% - 56px);
+}
+#carouselExampleIndicators .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item{
+    height: 100%;
+}
+span.cursive {
+    font-family: 'Dancing Script', cursive;
+}
